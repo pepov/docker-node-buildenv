@@ -1,6 +1,6 @@
 FROM ajnasz/node-base
 
-MAINTAINER Lajos Koszti <koszti.lajos@ustream.tv>
+MAINTAINER Lajos Koszti <ajnasz@ajnasz.hu>
 
 RUN apk --update add git make gcc g++ python
 

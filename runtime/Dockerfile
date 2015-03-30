@@ -1,6 +1,6 @@
 FROM ajnasz/node-base
 
-MAINTAINER Lajos Koszti <koszti.lajos@ustream.tv>
+MAINTAINER Lajos Koszti <ajnasz@ajnasz.hu>
 
 # Set instructions on build.
 # ONBUILD ADD package.json /app/
