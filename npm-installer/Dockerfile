@@ -1,4 +1,4 @@
-FROM ajnasz/nodejs-base
+FROM ajnasz/node-base
 
 MAINTAINER Lajos Koszti <koszti.lajos@ustream.tv>
 
