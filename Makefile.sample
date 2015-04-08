@@ -1,0 +1,11 @@
+install:
+	docker run --rm -v $(PWD):/app ajnasz/node-npm-installer:1.0
+
+build:
+	docker build -t $(REPO):$(TAG) .
+
+test:
+	docker run --rm $(REPO):$(TAG) npm test
+
+run:
+	docker run --rm -p $(PORT):3000 $(REPO):$(TAG)
